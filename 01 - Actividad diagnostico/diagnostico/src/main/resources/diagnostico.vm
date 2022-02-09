@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta name='Actividad 0: Sistemas Inteligentes' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='public/CSS/Diagnostico.css'>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    </head>
+     <body>
+        <table>
+            <tr>
+                <td colspan="4">SUMAS CONSECUTIVAS</td>
+            </tr>
+            <tr>
+                <td colspan="4">Escriba un numero para sumar todos las cantidadess enterss consecutivas en él. Cuando termine, haga click en el botón "CALCULAR".</td>
+            </tr>
+            <tr>
+                <td colspan="1">Número:</td>
+                <td colspan="1"><input type="number" id="sumasConsecutivas"></td>
+                <td colspan="1" id="btnSumasConsecutivas" class="btn">CALCULAR</td>
+                <td colspan="1" id="sumasConsecutivasResultado">-</td>
+            </tr>
+            <tr>
+                <td colspan="4" id="msgSumasConsecutivas">-</td>
+            </tr>
+            <tr>
+                <td colspan="4">LENGUAJE DE LA "F"</td>
+            </tr>
+            <tr>
+                <td colspan="4">Escriba un texto para traducirlo al "lenguaje de la f". Cuando termine, haga click en el botón "TRADUCIR".</td>
+            </tr>
+            <tr>
+                <td colspan="4"><textarea cols="100" rows="5" name="txtLenguajeF" id="txtLenguajeF"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="4" id="msgLenguajeF">-</td>
+            </tr>
+            <tr>
+                <td colspan="4" class="btn" id="resultLenguajeF">-</td>
+            </tr>
+            <tr>
+                <td colspan="4" class="btn" id="btnLenguajeF">TRADUCIR</td>
+            </tr>
+            <tr>
+                <td colspan="4">JUEGO DEL AHORCADO</td>
+            </tr>
+            <tr>
+                <td colspan="4">Escriba dentro de algún espacio la letra que crea que corresponde a la palabra. Haga click en el botón "INICIAR" para comenzar un juego nuevo.</td>
+            </tr>
+            <tr>
+                <td colspan="4" id="espaciosAhorcado"></td>
+            </tr>
+            <tr>
+                <td colspan="4" id="msgsAhorcado"></td>
+            </tr>
+            <tr>
+                <td colspan="4" class="btn" id="btnAhorcado">INICIAR</td>
+            </tr>
+        </table>
+        <script src='public/JS/Diagnostico.js'></script>
+    </body>
+</html>
